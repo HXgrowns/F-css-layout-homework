@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 * {
@@ -17,6 +17,11 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  display: block;
+  margin-top: 2px;
 }
 
 .nav {
@@ -32,4 +37,39 @@ ul {
   justify-content: space-around;
   width: 100%;
   color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.left-aside {
+  width: 170px;
+  border: 1px solid red;
+}
+
+.main {
+  width: 780px;
+  border: 1px solid red;
+}
+
+.right-aside {
+  width: 200px;
+  border: 1px solid red;
+}
+
+.top {
+  padding: 20px 10px 10px 10px;
+  background-color: #f8f9fa;
+}
+
+.about {
+  font-weight: bolder;
+}
+
+.bottom {
+  padding: 20px 10px 10px 10px;
 }
