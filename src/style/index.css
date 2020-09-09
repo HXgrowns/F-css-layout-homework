@@ -48,7 +48,6 @@ a {
 
 .left-aside {
   width: 170px;
-  border: 1px solid red;
 }
 
 .top {
@@ -70,7 +69,6 @@ a {
   justify-content: space-between;
   width: 780px;
   height: 800px;
-  border: 1px solid blue;
 }
 
 .card {
@@ -90,12 +88,52 @@ a {
   width: 100%;
 }
 
-.right-aside {
-  width: 200px;
-  border: 1px solid red;
-}
-
 .article-info {
   color: #1887ff;
   text-decoration: none;
+}
+
+.right-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.login-card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.login-card > input {
+  padding-left: 10px;
+  width: 160px;
+  line-height: 2em;
+  border: 1px solid #dde0e4;
+  border-radius: 5px;
+}
+
+.login-card > input:nth-child(1) {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.login-card > input:nth-child(2) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.login-card input:last-child {
+  font-size: 17px;
+  color: #fff;
+  line-height: 1.5em;
+  border-color: transparent;
+  background-color: #007bff;
+}
+
+.remember {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 20px auto;
 }
