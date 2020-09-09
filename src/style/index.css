@@ -43,7 +43,6 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  border: 1px solid red;
 }
 
 .left-aside {
@@ -136,4 +135,20 @@ a {
   display: flex;
   justify-content: center;
   margin: 10px auto 20px auto;
+}
+
+.footer {
+  padding: 20px;
+  color: #ababab;
+  text-align: center;
+  border-top-color: #ececec;
+  background-color: #f9f9f9;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  display: inline;
 }
