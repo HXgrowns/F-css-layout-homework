@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="nav">
       <ul class="nav-link">
         <li>Home</li>
@@ -29,15 +29,15 @@
   </header>
   <div class="content">
     <aside class="left-aside">
-      <article class="top">
-        <cite class="about">
+      <article class="about">
+        <cite>
           <h1>About</h1>
         </cite>
         <p>Etiam porta sem <cite>malesuada magna</cite> magna mollis euismod.Cras matt is consectetur purus sita met
           fermentum.Aenean
           lacinia bibendum nulla sed consectetur</span>
       </article>
-      <article class="bottom">
+      <article class="archives">
         <cite>
           <h1>Archives</h1>
         </cite>
@@ -96,7 +96,7 @@
       </article>
     </main>
     <aside class="right-aside">
-      <div class="login-card">
+      <form class="login-card">
         <input type="text" placeholder="Email address" />
         <input type="text" placeholder="Password" />
         <div class="remember">
@@ -104,12 +104,12 @@
           <label for="select">Remember me</label>
         </div>
         <input type="submit" value="Sign in" />
-      </div>
+      </form>
     </aside>
   </div>
   <footer class="footer">
     <p>Advanced CSS homework built by <a href="#">@huxiao</a></p>
-    <a href="#">Back to top</a>
+    <a href="#header">Back to top</a>
   </footer>
   <script src="src/app.js"></script>
 </body>

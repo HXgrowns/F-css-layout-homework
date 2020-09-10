@@ -49,16 +49,16 @@ a {
   width: 170px;
 }
 
-.top {
+.about {
   padding: 20px 10px 10px 10px;
   background-color: #f8f9fa;
 }
 
-.about {
+.about > cite {
   font-weight: bolder;
 }
 
-.bottom {
+.archives {
   padding: 20px 10px 10px 10px;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .card {
-  width: calc(100% / 2 - 15px);
+  width: calc(780px / 2 - 15px);
   border: 1px solid #e4e4e4;
 }
 
