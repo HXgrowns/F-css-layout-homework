@@ -66,12 +66,14 @@ a {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
+  align-content: space-between;
   width: 780px;
-  height: 800px;
+  height: 810px;
+  border: 1px solid black;
 }
 
 .card {
-  width: calc(780px / 2 - 15px);
+  width: calc(780px / 2 - 8px);
   border: 1px solid #e4e4e4;
 }
 
